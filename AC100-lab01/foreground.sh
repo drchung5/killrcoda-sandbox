@@ -4,11 +4,11 @@ echo "foreground.sh"
 
 echo -n "Install JDK 11 "
 
-apt-get update 
+apt-get update > /dev/null 2>&1
 
 sudo apt-get install -y openjdk-11-jdk openjdk-11-jdk < "/dev/null" > /dev/null 2>&1
 
-until [[ -e /usr/lib/ && -e /usr/bin/java ]]
+until [[ -e /usr/lib/jvm/openjdk-11 && -e /usr/bin/java ]]
 do
      sleep 1
      echo -n '.'
