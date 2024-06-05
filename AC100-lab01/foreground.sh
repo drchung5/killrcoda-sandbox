@@ -8,7 +8,7 @@ apt-get update > /dev/null 2>&1
 
 sudo apt-get install -y openjdk-11-jdk-headless < "/dev/null" > /dev/null 2>&1
 
-until [[ -e /usr/lib/jvm/openjdk-11 && -e /usr/bin/java ]]
+until [[ -e /usr/lib/jvm && -e /usr/bin/java ]]
 do
      sleep 1
      echo -n '.'
