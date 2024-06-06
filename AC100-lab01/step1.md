@@ -10,4 +10,14 @@ After verifying that the version is 11.0.23, clear the screen and continue to th
 clear
 ```{{execute T1}}
 
-Download the 
+There are multiple ways to install Cassandra:
+
+- Linux package managers
+- Docker
+- Tarball
+
+---
+**Note:** You could even skip the install altogether and use [Datastax AstraDB](https://astra.datastax.com) - *Cassandra-as-a-service* in the cloud! 
+
+---
+In this lab we will install Cassandra from a Tarball.
