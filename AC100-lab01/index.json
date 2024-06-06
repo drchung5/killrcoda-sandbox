@@ -1,7 +1,7 @@
 {
     "private": false,
-    "title": "AC100 Lab 01 Do something with a long title",
-    "description": "Learn how to perform 'zero-downtime' migration from Cassandra 3.x -> 4.x",
+    "title": "AC100 Lab 01 Install and Start Apache Cassandra™",
+    "description": "Get started with Apache Cassandra™",
     "difficulty": "Intermediate",
     "time": "20 minutes",
     "details": {
