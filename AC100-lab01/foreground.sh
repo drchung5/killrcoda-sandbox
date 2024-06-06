@@ -1,10 +1,12 @@
 #!/bin/bash
 
 # Suppress output of the script
-# exec > /dev/null 2>&1
+exec > /dev/null 2>&1
 
 # Echo statements to indicate progress
 echo "foreground.sh"
+
+exec > /dev/tty 2>&1
 
 # Indicate start of JDK 11 installation
 echo -n "Install JDK 11 "
