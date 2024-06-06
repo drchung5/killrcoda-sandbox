@@ -1,4 +1,6 @@
-In this step, you will verify that the appropriate version of Java is installed, then you iwll download Cassandra and extraxt it into a directory. 
+In this step, you will verify that the environment is set up to install and run Cassandra. 
+
+Cassandra 5 requires at least JDK 11 so first we will verify that  we have the right JDK installed.
 
 ✅ Check the JDK version.
 ```
@@ -11,6 +13,23 @@ Verify that the version is 11.0.23
 ```
 clear
 ```{{exec T1}}
+
+While connected through the terminal, you should verify the user account you are logged in with.
+
+✅ Check the account
+```
+whoami
+```{{exec T1}}
+
+You are currently logged in as a *root* user.
+Cassandra should *never* run under a user account with *root* privileges.
+Fortunately, the lab environment setup created a new user in a new group to run Cassandra.
+
+Username: cassandra-user
+Password: 1C@ssandra
+Group: cassandra
+
+
 
 There are multiple ways to install Cassandra:
 
