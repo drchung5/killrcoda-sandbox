@@ -22,11 +22,11 @@ whoami
 ```{{exec T1}}
 
 You are currently logged in as a *root* user.
+
 Cassandra should *never* run under a user account with *root* privileges.
 Fortunately, the lab environment setup created a new user in a new group to run Cassandra.
 
-Username: cassandra-user
-
+Username: cassandra-user<br>
 Group: cassandra
 
 
