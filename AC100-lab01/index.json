@@ -12,15 +12,14 @@
       },
       "steps": [
         {
-          "title": "Download and extract Apache Cassandra™",
+          "title": "Step 1: Configure the environment",
           "text": "step01/text.md",
           "verify": "step01/verify.sh"
         },
         {
-          "title": "Populate the Cluster",
+          "title": "Step 2: Download and install Cassandra",
           "text": "step02/text.md",
-          "foreground": "step02/foreground.sh",
-          "verify": "step01/verify.sh"
+          "verify": "step02/verify.sh"
         },
         {
           "title": "Verify that the Cluster is Ready to Upgrade",
