@@ -26,46 +26,18 @@ You are currently logged in as a *root* user.
 Cassandra should *never* run under a user account with *root* privileges.
 Fortunately, the lab environment setup created a new user in a new group to run Cassandra.
 
-Username: cassandra-user<br>
-Group: cassandra
+**User** : cassandra-user<br>
+**Group**: cassandra
 
 
-
-There are multiple ways to install Cassandra:
-
-- Linux package managers
-- Docker
-- Tarball
-
-
-**Note:** You could even skip the install altogether and use [Datastax AstraDB](https://www.datastax.com/products/datastax-astra) - *Cassandra-as-a-service* in the cloud! 
-
-In this lab we will install Cassandra from a Tarball.
-
-✅ Download the Cassandra tarball from an Apache CDN:
+✅ Switch to *cassandra-user*.
 ```
-curl https://dlcdn.apache.org/cassandra/5.0-beta1/apache-cassandra-5.0-beta1-bin.tar.gz \
-        --output apache-cassandra-5.0-beta1-bin.tar.gz
+su cassandra-user
 ```{{exec T1}}
 
-✅ View the downloaded tarball:
+✅ Navigate to cassandra-user's home directory.
 ```
-ls -l
+cd /home/cassandra-user
 ```{{exec T1}}
 
-✅ Extract tarball:
-```
-tar xf apache-cassandra-5.0-beta1-bin.tar.gz
-```{{exec T1}}
-
-The directory should now contain the tarball and the `apache-cassandra-4.1.3` directory
-
-✅ View the directory.
-```
-ls -l
-```{{exec T1}}
-
-✅ Delete the tarball.
-```
-rm apache-cassandra-5.0-beta1-bin.tar.gz
-```{{exec T1}}
+You are now ready to install Cassandra into `/home/cassandra-user`.
