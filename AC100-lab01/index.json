@@ -41,6 +41,7 @@
         }
       ],
       "intro": {
+        "foreground": "foreground.sh",
         "background": "background.sh",
         "text": "intro.md"
       },
