@@ -12,7 +12,7 @@
       },
       "steps": [
         {
-          "title": "Create a Cassandra 3.11.9 Cluster",
+          "title": "Install and start Apache Cassandra™",
           "text": "step1.md"
         },
         {
