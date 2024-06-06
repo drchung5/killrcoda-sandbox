@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TARGET_DIR="/home/cassandra-user"
+TARGET_DIR="/home/cassandra-userbbbb"
 CURRENT_DIR=$(pwd)
 
 if[ "$CURRENT_DIR" == "$TARGET_DIR"  ] then
