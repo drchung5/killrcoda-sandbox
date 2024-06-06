@@ -11,8 +11,6 @@ echo "" > /dev/tty 2>&1
 echo -n "Install JDK 11 " > /dev/tty 2>&1
 
 
-# Install OpenJDK 11 without prompting for confirmation
-sudo apt-get install -y openjdk-11-jdk-headless < /dev/null > /dev/null 2>&1 &
 
 # Loop to check for the existence of JDK installation directories
 until [[ -e /usr/lib/jvm && -e /usr/bin/java ]]
