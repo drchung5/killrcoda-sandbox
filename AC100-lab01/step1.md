@@ -26,7 +26,7 @@ Cassandra should *never* run under a user account with *root* privileges.
 Fortunately, the lab environment setup created a new user in a new group to run Cassandra.
 
 Username: cassandra-user
-Password: 1C@ssandra
+
 Group: cassandra
 
 
