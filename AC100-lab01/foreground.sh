@@ -9,10 +9,10 @@ echo "" > /dev/tty 2>&1
 apt-get update 
 
 # Install OpenJDK 11 without prompting for confirmation
-sudo apt-get install -y openjdk-11-jdk-headless < /dev/null > /dev/null 2>&1
+sudo apt-get install -y openjdk-11-jdk-headless < /dev/null > /dev/null 2>&1 &
 
 # Loop to check for the existence of JDK installation directories
-until [[ -e /usr/lib/jvm/zzz && -e /usr/bin/java ]]
+until [[ -e /usr/lib/jvm && -e /usr/bin/java ]]
 do
      sleep 1
      echo '.' > /dev/tty 2>&1
