@@ -9,6 +9,6 @@ do
      echo -n '.' > /dev/tty 2>&1
 done
 
-echo -ne "\n\tLab environment ready!" > /dev/tty 2>&1
+echo -ne "\n\n\tLab environment ready!\n\n" > /dev/tty 2>&1
 
 exec > /dev/tty 2>&1
