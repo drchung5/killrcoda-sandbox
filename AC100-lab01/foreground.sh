@@ -30,9 +30,6 @@ echo -e "\n\n" > /dev/tty 2>&1
 echo -e " Lab environment ready!" > /dev/tty 2>&1
 echo -e "\n" > /dev/tty 2>&1
 
-su cassandra-user
-cd /home/cassandra-user
-
 PS1="\w $ "
 
 exec > /dev/tty 2>&1
