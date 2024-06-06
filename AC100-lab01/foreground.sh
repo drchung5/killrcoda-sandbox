@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Suppress output of the script
-exec > /dev/null 2>&1
+# exec > /dev/null 2>&1
 
 # Echo statements to indicate progress
 echo "foreground.sh"
@@ -23,7 +23,7 @@ do
 done
 
 # Restore output to the terminal for the final message
-exec > /dev/tty 2>&1
+# exec > /dev/tty 2>&1
 
 # Final message to indicate completion of JDK 11 installation
 echo "JDK 11 installation complete"
