@@ -11,6 +11,6 @@ done
 
 echo -e "\n\n" > /dev/tty 2>&1
 echo -e "\tLab environment ready!" > /dev/tty 2>&1
-echo -e "\n\n" > /dev/tty 2>&1
+echo -e "\n" > /dev/tty 2>&1
 
 exec > /dev/tty 2>&1
