@@ -1,13 +1,24 @@
-In this scenario you will learn how to upgrade an Apache Cassandra™ cluster from 3.x to 4.x. To keep the scenario from becoming too complex, in the hands on exercises of this senario you will perform a migration of a *single-node* cluster. 
-
-Production Cassandra clusters always have multiple nodes. Therefore, steps have notes describing the *extra* work necessary to upgrade *multi-node* clusters.
-
-In this scenarion, you will:
-- Configure a single node Cassandra 3.x cluster
-- Populate this cluster with data
-- Prepare the cluster for upgrade
-- Install Cassandra 4.x
-- Start Cassandra 4.x cluster
-- Verify that the data has upgraded to the Cassandra 4.x cluster
-
-## Let's get started
+<main>
+    <br/>
+    <div class="container px-4 py-2">
+     <div class="row g-4 py-2 row-cols-1 row-cols-lg-1">
+      <div class="feature col div-choice">
+            <div class="scenario-description">DS201 Exercise 1: Install and Start Apache Cassandra™</div>
+            <ul>
+              <li><span class="scenario-description-attribute">Difficulty</span>: Beginner</li>
+              <li><span class="scenario-description-attribute">Time</span>: 10 minutes</li>
+            </ul>
+            <div class="scenario-objectives">In this hands-on lab, you will:</div>
+            <ul>
+              <li><span class="scenario-objective">Download the Cassandra tarball from a CDN</span></li>
+              <li><span class="scenario-objective">Extract Cassandra</span></li>
+              <li><span class="scenario-objective">Start Cassandra</span></li>
+              <li><span class="scenario-objective">Verify that Cassandra is up and running</span></li>
+            </ul>
+                        <a href='command:katapod.loadPage?[{"step":"step1"}]' class="btn btn-primary btn-cassandra">
+              Start the lab
+            </a>
+      </div>
+     </div>
+    </div>
+</main>
