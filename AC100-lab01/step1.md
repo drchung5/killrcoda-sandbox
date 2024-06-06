@@ -16,7 +16,7 @@ There are multiple ways to install Cassandra:
 - Docker
 - Tarball
 
-'''<plain
+'''plain
 **Note:** You could even skip the install altogether and use [Datastax AstraDB](https://www.datastax.com/products/datastax-astra) - *Cassandra-as-a-service* in the cloud! 
 '''
 
