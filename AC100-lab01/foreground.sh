@@ -30,6 +30,7 @@ echo -e "\n\n" > /dev/tty 2>&1
 echo -e " Lab environment ready!" > /dev/tty 2>&1
 echo -e "\n" > /dev/tty 2>&1
 
+cd /usr/local
 PS1="\w $ "
 
 exec > /dev/tty 2>&1
