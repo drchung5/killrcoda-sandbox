@@ -13,12 +13,14 @@
       "steps": [
         {
           "title": "Download and extract Apache Cassandra™",
-          "text": "step1.md",
-          "verify": "step1verify.sh"
+          "text": "step01/text.md",
+          "verify": "step01/verify.sh"
         },
         {
           "title": "Populate the Cluster",
-          "text": "step2.md"
+          "text": "step02/text.md",
+          "background": "step02/background.sh",
+          "verify": "step01/verify.sh"
         },
         {
           "title": "Verify that the Cluster is Ready to Upgrade",
@@ -42,9 +44,9 @@
         }
       ],
       "intro": {
-        "foreground": "scripts/foreground.sh",
-        "background": "scripts/background.sh",
-        "text": "intro.md"
+        "foreground": "intro/foreground.sh",
+        "background": "intro/background.sh",
+        "text": "intro/text.md"
       },
       "finish": {
         "text": "finish.md"
