@@ -1,8 +1,10 @@
 #!/bin/bash
 
-addnewuser --disabled-password cassandra-user
+groupadd cassandra
+useradd -m -s /bin/bash -g cassandra cassandra-user
 
 apt-get update
 
 sudo apt-get install -y openjdk-11-jdk-headless < /dev/null > /dev/null 
+
 
