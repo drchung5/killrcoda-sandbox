@@ -19,7 +19,7 @@ sudo apt-get install -y openjdk-11-jdk-headless < /dev/null > /dev/null 2>&1
 until [[ -e /usr/lib/jvm && -e /usr/bin/java ]]
 do
      sleep 1
-     echo -n '.' > /dev/tty  # Output dots to terminal to show progress
+     echo -n '.'
 done
 
 # Restore output to the terminal for the final message
