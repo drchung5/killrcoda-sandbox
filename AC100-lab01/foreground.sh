@@ -1,11 +1,8 @@
 #!/bin/bash
 exec > /dev/null 2>&1
 
-# Echo statements to indicate progress
-echo "*** foreground.sh ***" > /dev/tty 2>&1
-
 # Indicate start of JDK 11 installation
-echo "Install JDK 11" > /dev/tty 2>&1
+echo "\n   Install JDK 11\n" > /dev/tty 2>&1
 
 # Update package lists
 apt-get update 
@@ -20,7 +17,7 @@ do
      echo '.' > /dev/tty 2>&1
 done
 
+echo "\n   JDK 11 installation complete\n" > /dev/tty 2>&1
+
 # Restore output to the terminal for the final message
 exec > /dev/tty 2>&1
-
-echo "JDK 11 installation complete"
