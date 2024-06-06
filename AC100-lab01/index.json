@@ -12,7 +12,7 @@
       },
       "steps": [
         {
-          "title": "Install and start Apache Cassandra™",
+          "title": "Download and extract Apache Cassandra™",
           "text": "step1.md"
         },
         {
@@ -53,6 +53,6 @@
       "uilayout": "terminal"
     },
     "backend": {
-      "imageid": "ubuntu:1804"
+      "imageid": "ubuntu"
     }
   }
