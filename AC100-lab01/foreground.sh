@@ -1,5 +1,7 @@
 #!/bin/bash
-exec > /dev/null 2>&1 > /dev/null 2>&1 
+exec > /dev/null 2>&1
+
+clear
 
 echo "" > /dev/tty 2>&1
 echo "Update package lists"> /dev/tty 2>&1
