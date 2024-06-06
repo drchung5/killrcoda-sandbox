@@ -19,7 +19,7 @@
         {
           "title": "Populate the Cluster",
           "text": "step02/text.md",
-          "background": "step02/background.sh",
+          "foreground": "step02/foreground.sh",
           "verify": "step01/verify.sh"
         },
         {
