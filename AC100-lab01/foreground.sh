@@ -1,18 +1,14 @@
 #!/bin/bash
-
-# Suppress output of the script
 exec > /dev/null 2>&1
 
 # Echo statements to indicate progress
 echo "*** foreground.sh ***" > /dev/tty 2>&1
 
-exec > /dev/tty 2>&1
-
 # Indicate start of JDK 11 installation
-echo -n "Install JDK 11 "
+echo "Install JDK 11" > /dev/tty 2>&1
 
 # Update package lists
-apt-get update > /dev/null 2>&1
+apt-get update 
 
 # Install OpenJDK 11 without prompting for confirmation
 sudo apt-get install -y openjdk-11-jdk-headless < /dev/null > /dev/null 2>&1
@@ -21,11 +17,10 @@ sudo apt-get install -y openjdk-11-jdk-headless < /dev/null > /dev/null 2>&1
 until [[ -e /usr/lib/jvm && -e /usr/bin/java ]]
 do
      sleep 1
-     echo -n '.'
+     echo '.' > /dev/tty 2>&1
 done
 
 # Restore output to the terminal for the final message
-# exec > /dev/tty 2>&1
+exec > /dev/tty 2>&1
 
-# Final message to indicate completion of JDK 11 installation
 echo "JDK 11 installation complete"
