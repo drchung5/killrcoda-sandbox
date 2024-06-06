@@ -1,12 +1,12 @@
 #!/bin/bash
-exec > /dev/null 2>&1 
+exec > /dev/null 2>&1 > /dev/null 2>&1 
 
 echo "" > /dev/tty 2>&1
 echo "Update package lists"> /dev/tty 2>&1
 apt-get update 
 
 echo "" > /dev/tty 2>&1
-echo -n "Install JDK 11" > /dev/tty 2>&1
+echo -n "Install JDK 11 " > /dev/tty 2>&1
 
 
 # Install OpenJDK 11 without prompting for confirmation
