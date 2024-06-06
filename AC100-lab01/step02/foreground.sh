@@ -1,4 +1,5 @@
 #!/bin/bash 
-
-su cassandra-user > /dev/null 2>&1
-cd /home/cassandra-user > /dev/null 2>&1
+exec > /dev/null 2>&1
+su cassandra-user 
+cd /home/cassandra-user 
+exec > /dev/tty 2>&1
