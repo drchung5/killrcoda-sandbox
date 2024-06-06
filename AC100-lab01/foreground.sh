@@ -4,7 +4,7 @@
 exec > /dev/null 2>&1
 
 # Echo statements to indicate progress
-echo "foreground.sh"
+echo "*** foreground.sh ***" > /dev/tty 2>&1
 
 exec > /dev/tty 2>&1
 
