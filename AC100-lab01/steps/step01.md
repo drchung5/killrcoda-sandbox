@@ -9,11 +9,6 @@ java -version
 
 Verify that the version is 11.0.23
 
-✅ Clear the screen.
-```
-clear
-```{{exec T1}}
-
 While connected through the terminal, you should verify the user account you are logged in with.
 
 ✅ Check the account
