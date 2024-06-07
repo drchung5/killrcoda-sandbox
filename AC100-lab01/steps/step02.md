@@ -24,14 +24,14 @@ ls -l
 tar xf apache-cassandra-5.0-beta1-bin.tar.gz
 ```{{exec T1}}
 
-The directory should now contain the tarball and the `apache-cassandra-4.1.3` directory
+✅ Delete the tarball.
+```
+rm apache-cassandra-5.0-beta1-bin.tar.gz
+```{{exec T1}}
 
 ✅ View the directory.
 ```
 ls -l
 ```{{exec T1}}
 
-✅ Delete the tarball.
-```
-rm apache-cassandra-5.0-beta1-bin.tar.gz
-```{{exec T1}}
+You should see the `apache-cassandra-5.0-beta1` directory.
