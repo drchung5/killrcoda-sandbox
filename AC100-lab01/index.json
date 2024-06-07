@@ -2,8 +2,8 @@
     "private": false,
     "title": "AC100 Lab 01: Installation",
     "description": "Get started with Apache Cassandra™",
-    "difficulty": "Intermediate",
-    "time": "20 minutes",
+    "difficulty": "Beginner",
+    "time": "10 minutes",
     "details": {
       "assets": {
         "host01": [
@@ -30,10 +30,10 @@
       "intro": {
         "foreground": "scripts/intro-foreground.sh",
         "background": "scripts/intro-background.sh",
-        "text": "intro.md"
+        "text": "steps/intro.md"
       },
       "finish": {
-        "text": "finish.md"
+        "text": "steps/finish.md"
       }
     },
     "environment": {
