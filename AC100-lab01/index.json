@@ -30,7 +30,7 @@
       "intro": {
         "foreground": "scripts/intro-foreground.sh",
         "background": "scripts/intro-background.sh",
-        "text": "text.md"
+        "text": "intro.md"
       },
       "finish": {
         "text": "finish.md"
