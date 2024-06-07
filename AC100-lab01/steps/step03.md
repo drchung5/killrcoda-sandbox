@@ -26,3 +26,8 @@ cd bin
 ```
 ./cassandra > /dev/null 2>&1 &
 ```{{exec T1}}
+
+Nodetool command line tool that you can to monitor, configure and repair Cassandra and more!
+You will use nodetool to verify that Cassandra is up and running. 
+
+![nodetool status](https://killrcoda-file-store.s3.amazonaws.com/AC201/Lab01/nodetool-UN.png)
