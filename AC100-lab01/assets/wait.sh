@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo wait.sh
+echo "wait.sh"
