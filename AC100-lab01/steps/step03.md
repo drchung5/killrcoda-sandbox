@@ -47,5 +47,5 @@ Once Cassandra is running you will see the status as **UN** (Up/Normal).
 
 
 ```
-^C
+ctrl-C
 ```{{exec interrupt}}
