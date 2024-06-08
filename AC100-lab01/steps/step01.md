@@ -3,18 +3,14 @@ In this step, you will verify that the environment is set up to install and run 
 Cassandra 5 requires at least JDK 11 so first we will verify that  we have the right JDK installed.
 
 ✅ Check the JDK version.
-```
-java -version
-```{{exec}}
+`java -version`{{exec}}
 
 Verify that the version is 11.0.23
 
 While connected through the terminal, you should verify the user account you are logged in with.
 
 ✅ Check the account
-```
-whoami
-```{{exec}}
+`whoami`{{exec}}
 
 You are currently logged in as a *root* user.
 
@@ -26,13 +22,9 @@ Fortunately, the lab environment setup created a new user in a new group to run 
 
 
 ✅ Switch to *cassandra-user*.
-```
-su cassandra-user
-```{{exec}}
+`su cassandra-user`{{exec}}
 
 ✅ Navigate to cassandra-user's home directory.
-```
-cd /home/cassandra-user
-```{{exec}}
+`cd /home/cassandra-user`{{exec}}
 
 You are now ready to install Cassandra into `/home/cassandra-user`.
