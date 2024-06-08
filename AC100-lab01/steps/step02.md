@@ -12,32 +12,32 @@ In this lab we will install Cassandra from a Tarball.
 ```
 curl https://dlcdn.apache.org/cassandra/5.0-beta1/apache-cassandra-5.0-beta1-bin.tar.gz \
         --output apache-cassandra-5.0-beta1-bin.tar.gz
-```{{exec T1}}
+```{{exec}}
 
 ✅ View the downloaded tarball:
 ```
 ls -l
-```{{exec T1}}
+```{{exec}}
 
 ✅ Extract the tarball:
 ```
 tar xf apache-cassandra-5.0-beta1-bin.tar.gz
-```{{exec T1}}
+```{{exec}}
 
 ✅ Delete the tarball.
 ```
 rm apache-cassandra-5.0-beta1-bin.tar.gz
-```{{exec T1}}
+```{{exec}}
 
 ✅ Rename the directory.
 ```
 mv apache-cassandra-5.0-beta1 cassandra
-```{{exec T1}}
+```{{exec}}
 
 
 ✅ View the directory.
 ```
 ls -l
-```{{exec T1}}
+```{{exec}}
 
 You should see the `cassandra` directory.

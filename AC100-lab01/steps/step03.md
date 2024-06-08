@@ -5,12 +5,12 @@ In this step, you will start Cassandra and verify that it is running.
 ✅ Change to the `cassandra` directory
 ```
 cd cassandra
-```{{exec T1}}
+```{{exec}}
 
 ✅ View to the `cassandra` directory
 ```
 ls -al
-```{{exec T1}}
+```{{exec}}
 
 You should see `bin`, `conf`, `doc`, `lib`, `pylib`, and `tools` directories.
 
@@ -19,13 +19,13 @@ The Cassandra executable is in the `bin` directory and the configuration files a
 ✅ Change to the `bin` directory
 ```
 cd bin
-```{{exec T1}}
+```{{exec}}
 
 
 ✅ Start Cassandra in the background and send the console output to `/dev/null`.
 ```
 ./cassandra > /dev/null 2>&1 &
-```{{exec T1}}
+```{{exec}}
 
 Nodetool is command line tool that you can us to monitor, configure or repair Cassandra.
 
@@ -35,12 +35,17 @@ The `watch` command will run `nodetool status` every two seconds.
 ✅ Run 'nodetool status` to determine whether Cassandra is running.
 ```
 watch ./nodetool status
-```{{exec T1}}
+```{{exec}}
 
 If Cassandra is not running, nodetool will fail to make a connection and you will see a message similar this one.
 
 ![nodetool status](https://killrcoda-file-store.s3.amazonaws.com/nodetool-notconnected.png)
 
-Once Cassandra is running you will see the status as **U**p/**N**ormal.
+Once Cassandra is running you will see the status as **UN** (Up/Normal).
 
 ![nodetool status](https://killrcoda-file-store.s3.amazonaws.com/AC201/Lab01/nodetool-UN.png)
+
+
+```
+^C
+```{{exec ctrl-seq}}
