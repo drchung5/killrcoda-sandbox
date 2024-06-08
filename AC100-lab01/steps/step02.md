@@ -15,18 +15,28 @@ curl https://dlcdn.apache.org/cassandra/5.0-beta1/apache-cassandra-5.0-beta1-bin
 ```{{exec}}
 
 ✅ View the downloaded tarball:
-`ls -l`{{exec}}
+```
+ls -l
+```{{exec}}
 
 ✅ Extract the tarball:
-`tar xf apache-cassandra-5.0-beta1-bin.tar.gz`{{exec}}
+```
+tar xf apache-cassandra-5.0-beta1-bin.tar.gz
+```{{exec}}
 
 ✅ Delete the tarball.
-`rm apache-cassandra-5.0-beta1-bin.tar.gz`{{exec}}
+```
+rm apache-cassandra-5.0-beta1-bin.tar.gz
+```{{exec}}
 
 ✅ Rename the directory.
-`mv apache-cassandra-5.0-beta1 cassandra`{{exec}}
+```
+mv apache-cassandra-5.0-beta1 cassandra
+```{{exec}}
 
 ✅ View the directory.
-`ls -l`{{exec}}
+```
+ls -l
+```{{exec}}
 
 You should see the `cassandra` directory.
