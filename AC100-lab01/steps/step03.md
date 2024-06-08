@@ -49,3 +49,14 @@ Once Cassandra is running you will see the status as **UN** (Up/Normal).
 ```
 sleep 1d
 ```{{exec interrupt}}
+
+<details>
+  <summary style="color:teal">Solution</summary>
+
+`UPDATE users
+  SET address = '789 Cherry St.'
+  WHERE last_name = 'Jones'
+  AND first_name = 'Chris'
+  AND email = 'cjones@gmail.com';`{{execute}}
+
+</details>
