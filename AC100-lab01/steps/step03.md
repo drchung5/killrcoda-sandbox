@@ -45,7 +45,7 @@ Once Cassandra is running you will see the status as **UN** (Up/Normal).
 
 ![nodetool status](https://killrcoda-file-store.s3.amazonaws.com/AC201/Lab01/nodetool-UN.png)
 
-
+✅ Send a ctrl-C to stop the watch.
 ```
-ctrl-C
+sleep 1d
 ```{{exec interrupt}}
