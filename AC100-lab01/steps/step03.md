@@ -35,9 +35,11 @@ You will use `nodetool status` that Cassandra is up and running.
 ./nodetool status
 ```{{exec}}
 
-If Cassandra is not running, nodetool will fail to make a connection and you will see a message similar this one. 
+If Cassandra is not running, nodetool will fail to make a connection and you will see a message similar to one of these. 
 
-![nodetool status](https://killrcoda-file-store.s3.amazonaws.com/nodetool-notconnected.png)
+![nodetool status](https://killrcoda-file-store.s3.amazonaws.com/AC201/Lab01/nodetool-failedtoconnect.png)
+
+![nodetool status](https://killrcoda-file-store.s3.amazonaws.com/AC201/Lab01/nodetool-illegal.png)
 
 If Cassandra is running you will see the status as **UN** (Up/Normal).
 
