@@ -28,22 +28,23 @@ cd bin
 ```{{exec}}
 
 Nodetool is command line tool that you can us to monitor, configure or repair Cassandra.
+You will use `nodetool status` that Cassandra is up and running. 
 
-You will use `nodetool status` with the Linux `watch` command to verify that Cassandra is up and running. 
-The `watch` command will run `nodetool status` every two seconds.
-
-✅ Run 'nodetool status` to determine whether Cassandra is running.
+✅ Run 'nodetool status`.
 ```
-watch ./nodetool status
+./nodetool status
 ```{{exec}}
 
-If Cassandra is not running, nodetool will fail to make a connection and you will see a message similar this one.
+If Cassandra is not running, nodetool will fail to make a connection and you will see a message similar this one. 
 
 ![nodetool status](https://killrcoda-file-store.s3.amazonaws.com/nodetool-notconnected.png)
 
-Once Cassandra is running you will see the status as **UN** (Up/Normal).
+If Cassandra is running you will see the status as **UN** (Up/Normal).
 
 ![nodetool status](https://killrcoda-file-store.s3.amazonaws.com/AC201/Lab01/nodetool-UN.png)
 
-✅ Send a <kbd>Ctrl</kbd>+<kbd>C</kbd> to stop the watch.
-`^C`{{exec ctrl-seq}}
+
+✅ If Cassandra is not running, you can run nodetool again until the Cassandra's status i s **UP**/**N**ormal. 'nodetool status`.
+```
+./nodetool status
+```{{exec}}
