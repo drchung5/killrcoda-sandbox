@@ -1,6 +1,6 @@
 {
     "private": false,
-    "title": "AC100 Lab 0102: Data",
+    "title": "AC100 Lab 02: Data",
     "description": "Get started with Apache Cassandra™",
     "difficulty": "Beginner",
     "time": "10 minutes",
@@ -28,12 +28,12 @@
           "verify": "scripts/step03-verify.sh"        
         },
         {
-          "title": "Step 4: Create a keyspace and table",
+          "title": "Step 4: Create a Keyspace and Table",
           "text": "steps/step04.md",
           "verify": "scripts/step04-verify.sh"        
         },
         {
-          "title": "Step 5: Insert and view data",
+          "title": "Step 5: Insert and Retrieve Data",
           "text": "steps/step05.md",
           "verify": "scripts/step05-verify.sh"        
         }

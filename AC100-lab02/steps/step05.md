@@ -1,1 +1,1 @@
-In this step you will insert some data into the table and retriebe it.
+In this step you will insert some data into the table and retrieve it.
