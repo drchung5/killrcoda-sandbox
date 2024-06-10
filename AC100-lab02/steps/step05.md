@@ -91,7 +91,7 @@ SELECT * from videos;
 ✅ Use the `COPY` command to import data into your `videos` table:
 ```
 COPY videos(video_id, added_date, title)
-FROM '/workspace/ds201-lab02/data-files/videos.csv'
+FROM '/home/cassandra-user/data-files/videos.csv'
 WITH HEADER=TRUE;
 ```{{exec}}
 
