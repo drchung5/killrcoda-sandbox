@@ -24,17 +24,17 @@ ls -l
 tar xf apache-cassandra-5.0-beta1-bin.tar.gz
 ```{{exec}}
 
-✅ Delete the tarball.
+✅ Delete the tarball:
 ```
 rm apache-cassandra-5.0-beta1-bin.tar.gz
 ```{{exec}}
 
-✅ Rename the directory.
+✅ Rename the directory:
 ```
 mv apache-cassandra-5.0-beta1 cassandra
 ```{{exec}}
 
-✅ View the directory.
+✅ View the directory:
 ```
 ls -l
 ```{{exec}}

@@ -25,14 +25,9 @@ The video metadata is made up of:
 
 <br>
 
-✅ Use `nodetool` to verify that Cassandra is running (you may need to run this multiple times):
-```
-nodetool status
-```{{exec}}
-
 ✅ Start the command line tool `cqlsh`:
 ```
-cqlsh
+./cqlsh
 ```{{exec}}
 
 ✅ Create a keyspace called *killrvideo*. Use `SimpleStrategy` for the replication class with a replication factor of one.
