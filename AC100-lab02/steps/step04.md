@@ -70,3 +70,10 @@ CREATE TABLE videos (
 );
 ```{{exec}}
 </details>
+
+Verify that the table has been correctly created.
+
+✅ Run the `DESCRIBE` command to view the table details:
+```
+DESC TABLE videos;
+```{{exec}}
