@@ -7,7 +7,7 @@
     "details": {
       "assets": {
         "host01": [
-          {"file": "videos.csv", "target": "/home/cassandra", "chmod": "+r"}
+          {"file": "videos.csv", "target": "/home/cassandra", "chmod": "+r"},
           {"file": "videos-by-tag.csv", "target": "/home/cassandra", "chmod": "+r"}
         ]
       },
