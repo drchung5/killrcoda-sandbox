@@ -36,7 +36,7 @@
           "title": "Step 5: Start Cassandra",
           "text": "steps/step05.md",
           "verify": "scripts/step05-verify.sh"        
-        },
+        }
       ],
       "intro": {
         "foreground": "scripts/intro-foreground.sh",
