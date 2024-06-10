@@ -28,12 +28,12 @@
           "verify": "scripts/step03-verify.sh"        
         },
         {
-          "title": "Step 4: Start Cassandra",
+          "title": "Step 4: Create a keyspace and table",
           "text": "steps/step04.md",
           "verify": "scripts/step04-verify.sh"        
         },
         {
-          "title": "Step 5: Start Cassandra",
+          "title": "Step 5: Insert and view data",
           "text": "steps/step05.md",
           "verify": "scripts/step05-verify.sh"        
         }
