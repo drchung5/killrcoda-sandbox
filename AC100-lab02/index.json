@@ -1,14 +1,14 @@
 {
     "private": false,
-    "title": "AC100 Lab 01: Installation",
+    "title": "AC100 Lab 0102: Data",
     "description": "Get started with Apache Cassandra™",
     "difficulty": "Beginner",
     "time": "10 minutes",
     "details": {
       "assets": {
         "host01": [
-          {"file": "videos.csv", "target": "/home/cassandra", "chmod": "+r"},
-          {"file": "videos-by-tag.csv", "target": "/home/cassandra", "chmod": "+r"}
+          {"file": "videos.csv", "target": "/home/root", "chmod": "+r"},
+          {"file": "videos-by-tag.csv", "target": "/home/root", "chmod": "+r"}
         ]
       },
       "steps": [
