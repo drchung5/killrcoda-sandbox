@@ -22,7 +22,7 @@
           "verify": "scripts/step02-verify.sh"
         },
         {
-          "title": "Start Cassandra",
+          "title": "Step 03: Start Cassandra",
           "text": "steps/step03.md",
           "verify": "scripts/step03-verify.sh"        
         }
