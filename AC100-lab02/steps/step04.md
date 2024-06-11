@@ -25,7 +25,9 @@ The video metadata is made up of:
 
 <br>
 
-✅ Start the command line tool `cqlsh`:
+`cqlsh` is the command-line shell for Cassandra. You can use `cqlsh` to connect to Cassandra and issue CQL commands. Since you will be starting `cqlsh` in the Cassandra installation directory, authentication is not required, and it will connect automatically. 
+
+✅ Start `cqlsh`:
 ```
 ./cqlsh
 ```{{exec}}
