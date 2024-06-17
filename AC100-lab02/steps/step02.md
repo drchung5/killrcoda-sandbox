@@ -10,38 +10,14 @@ In this lab we will install Cassandra from a Tarball.
 
 ✅ Download the Cassandra tarball from an Apache CDN:
 ```
-curl https://dlcdn.apache.org/cassandra/5.0-beta1/apache-cassandra-5.0-beta1-bin.tar.gz 
+curl https://dlcdn.apache.org/cassandra/5.0-beta1/apache-cassandra-5.0-beta1-bin.tar.gz \
+        --output apache-cassandra-5.0-beta1-bin.tar.gz
 ```{{exec}}
 
 ✅ View the downloaded tarball:
 ```
 ls -l
 ```{{exec}}
-
-<details class="katapod-details">
-  <summary>Optional step - validation</summary>
-
-✅ Download the Cassandra *keys* file from an Apache CDN:
-```
-curl https://dlcdn.apache.org/cassandra/5.0-beta1/apache-cassandra-5.0-beta1-bin.tar.gz.asc \
-   --output keys.asc
-```{{exec}}
-
-✅ Download the Cassandra *signature* file from an Apache CDN:
-```
-curl https://dlcdn.apache.org/cassandra/5.0-beta1/apache-cassandra-5.0-beta1-bin.tar.gz.sha512 \
-   --output signatues.sha512
-```{{exec}}
-
-✅ Validate the download with the keys and signatures:
-```
-gpg --import keys,asc
-gpg --verify keys.asc apache-cassandra-5.0-beta1-bin.tar.gz
-```{{exec}}
-
-</details>
-
-
 
 ✅ Extract the tarball:
 ```
